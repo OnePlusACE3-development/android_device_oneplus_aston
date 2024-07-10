@@ -13,7 +13,7 @@ DEVICE_PATH := device/oneplus/aston
 TARGET_OTA_ASSERT_DEVICE := OP5CF9L1,OP5D35L1
 
 # Display
-TARGET_SCREEN_DENSITY := 450
+TARGET_SCREEN_DENSITY := 520
 
 # Kernel
 TARGET_KERNEL_CONFIG += vendor/oplus/aston.config
