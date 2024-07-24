@@ -12,9 +12,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/oneplus/aston/device.mk)
 
 # Inherit some common Evolution X stuff.
-$(call inherit-product, vendor/evolution/config/common_full_phone.mk)
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-PRODUCT_NAME := evolution_aston
+PRODUCT_NAME := lineage_aston
 PRODUCT_DEVICE := aston
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus

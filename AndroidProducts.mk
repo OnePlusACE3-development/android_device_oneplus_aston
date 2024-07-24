@@ -5,7 +5,7 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/evolution_aston.mk
+    $(LOCAL_DIR)/lineage_aston.mk
 
 COMMON_LUNCH_CHOICES := \
-	evolution_aston-userdebug
+	lineage_aston-userdebug
