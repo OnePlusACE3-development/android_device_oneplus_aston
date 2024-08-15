@@ -38,13 +38,13 @@ TARGET_SUPPORTS_QUICK_TAP := false
 TARGET_SUPPORTS_CALL_RECORDING := true
 
 TARGET_INCLUDE_STOCK_ARCORE := true
-TARGET_INCLUDE_LIVE_WALLPAPERS := false
+TARGET_INCLUDE_LIVE_WALLPAPERS := true
 
 # TARGET_LAUNCHER options:
 # 1 - stock (default)
 # 2 - lawnchair
 # 3 - pixel (valid only on gapps builds)
-TARGET_LAUNCHER := 1
+TARGET_LAUNCHER := 2
 
 # Debugging
 TARGET_INCLUDE_MATLOG := false
