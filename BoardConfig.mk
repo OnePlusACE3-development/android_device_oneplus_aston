@@ -8,7 +8,7 @@
 include device/oneplus/sm8550-common/BoardConfigCommon.mk
 
 DEVICE_PATH := device/oneplus/aston
-
+QCOM_COMMON_PATH := device/qcom/common
 # Assert
 TARGET_OTA_ASSERT_DEVICE := OP5CF9L1,OP5D35L1
 
