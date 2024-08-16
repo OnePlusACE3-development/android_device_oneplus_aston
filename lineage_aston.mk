@@ -36,9 +36,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     RISING_CHIPSET="Snapdragon 8 Gen 2"
     RISING_MAINTAINER="Weaponmasterjax"
 
-# whether to ship aperture camera, default is false
-PRODUCT_NO_CAMERA := true
-
 TARGET_ENABLE_BLUR := true
 
 # Wether to ship lawnchair launcher
@@ -54,15 +51,77 @@ WITH_GMS := true
 TARGET_CORE_GMS := true
 TARGET_CORE_GMS_EXTRAS := false
 PRODUCT_PACKAGES += \
-    Photos \
-    MarkupGoogle \
-    LatinIMEGooglePrebuilt \
-    AiWallpapers \
-    WallpaperEmojiPrebuilt \
+    GooglePrintRecommendationService \
+    DocumentsUIGoogle \
+    TagGoogle \
     CalculatorGooglePrebuilt \
     CalendarGooglePrebuilt \
-    Velvet
-TARGET_USE_GOOGLE_TELEPHONY := true
+    DevicePolicyPrebuilt \
+    GoogleContacts \
+    GoogleTTS \
+    LatinIMEGooglePrebuilt \
+    LocationHistoryPrebuilt \
+    MarkupGoogle \
+    NgaResources \
+    Photos \
+    PixelThemesStub \
+    PlayAutoInstallConfig \
+    PrebuiltGoogleTelemetryTvp \
+    SoundAmplifierPrebuilt \
+    SwitchAccessPrebuilt \
+    VoiceAccessPrebuilt \
+    WallpaperEmojiPrebuilt-v470 \
+    arcore \
+    talkback \
+    AICorePrebuilt \
+    AiWallpapers \
+    AmbientStreaming \
+    AndroidAutoStubPrebuilt \
+    ConfigUpdater \
+    DeviceIntelligenceNetworkPrebuilt-v.U.14.playstore \
+    DreamlinerPrebuilt \
+    DreamlinerUpdater \
+    FilesPrebuilt \
+    GoogleDialer \
+    GoogleOneTimeInitializer \
+    GoogleRestorePrebuilt-v445524 \
+    HealthIntelligenceStubPrebuilt \
+    HelpRtcPrebuilt \
+    PartnerSetupPrebuilt \
+    Phonesky \
+    PrebuiltBugle \
+    PrebuiltGmsCoreSc \
+    PrebuiltGmsCoreSc_AdsDynamite \
+    PrebuiltGmsCoreSc_CronetDynamite \
+    PrebuiltGmsCoreSc_DynamiteLoader \
+    PrebuiltGmsCoreSc_DynamiteModulesA \
+    PrebuiltGmsCoreSc_DynamiteModulesC \
+    PrebuiltGmsCoreSc_GoogleCertificates \
+    PrebuiltGmsCoreSc_MapsDynamite \
+    PrebuiltGmsCoreSc_MeasurementDynamite \
+    AndroidPlatformServices \
+    MlkitBarcodeUIPrebuilt \
+    VisionBarcodePrebuilt \
+    RecorderPrebuilt \
+    SafetyHubPrebuilt \
+    ScribePrebuilt \
+    SettingsIntelligenceGooglePrebuilt \
+    SetupWizardPrebuilt \
+    Velvet \
+    WallpaperEffect \
+    WeatherPixelPrebuilt \
+    WellbeingPrebuilt \
+    AccessibilityMenu \
+    EmergencyInfoGoogleNoUi \
+    Flipendo \
+    GoogleFeedback \
+    GoogleServicesFramework \
+    SetupWizardPixelPrebuilt \
+    StorageManagerGoogle \
+    TurboAdapter \
+    TurboPrebuilt \
+    com.google.android.dialer.support
+
 
 RISING_MAINTAINER := Weaponmasterjax
 PRODUCT_BUILD_PROP_OVERRIDES += \
