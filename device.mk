@@ -28,6 +28,10 @@ PRODUCT_PACKAGES += \
     android.hardware.ir-service.oplus \
     consumerir.default
 
+# Notch bar killer
+PRODUCT_PACKAGES += \
+    NotchBarKiller
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay-lineage
