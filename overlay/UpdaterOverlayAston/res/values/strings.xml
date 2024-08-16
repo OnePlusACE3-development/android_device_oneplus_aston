@@ -1,0 +1,5 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="updater_server_url_gapps" translatable="false">https://raw.githubusercontent.com/weaponmasterjax/android_vendor_RisingOTA/fourteen/GAPPS_{device}.json</string>
+    <string name="updater_server_url_core" translatable="false">https://raw.githubusercontent.com/weaponmasterjax/android_vendor_RisingOTA/fourteen/CORE_{device}.json</string>
+    <string name="updater_server_url_vanilla" translatable="false">https://raw.githubusercontent.com/weaponmasterjax/android_vendor_RisingOTA/fourteen/VANILLA_{device}.json</string>
+</resources>
