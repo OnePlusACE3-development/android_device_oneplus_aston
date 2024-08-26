@@ -85,7 +85,6 @@ PRODUCT_PACKAGES += \
     GoogleDialer \
     GoogleOneTimeInitializer \
     GoogleRestorePrebuilt-v445524 \
-    HealthIntelligenceStubPrebuilt \
     HelpRtcPrebuilt \
     PartnerSetupPrebuilt \
     Phonesky \
@@ -120,7 +119,11 @@ PRODUCT_PACKAGES += \
     StorageManagerGoogle \
     TurboAdapter \
     TurboPrebuilt \
-    com.google.android.dialer.support
+    com.google.android.dialer.support \
+    Chrome-Stub \
+    TrichromeLibrary-Stub \
+    WebViewGoogle-Stub
+
 
 
 RISING_MAINTAINER := Weaponmasterjax
