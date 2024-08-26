@@ -45,6 +45,83 @@ TARGET_PREBUILT_PIXEL_LAUNCHER := false
 # GMS build flags
 # ship with GMS packages, replaces default AOSP packages with Google manufactured packages.
 WITH_GMS := true
+# These flags needs WITH_GMS set to true
+# for more information about core GMS flags, please see vendor/gms/common/common-vendor.mk
+# ships core GMS components that are needed to run GMS environment
+TARGET_CORE_GMS := true
+TARGET_CORE_GMS_EXTRAS := false
+PRODUCT_PACKAGES += \
+    GooglePrintRecommendationService \
+    DocumentsUIGoogle \
+    TagGoogle \
+    CalculatorGooglePrebuilt \
+    CalendarGooglePrebuilt \
+    DevicePolicyPrebuilt \
+    GoogleContacts \
+    GoogleTTS \
+    LatinIMEGooglePrebuilt \
+    LocationHistoryPrebuilt \
+    MarkupGoogle \
+    NgaResources \
+    Photos \
+    PixelThemesStub \
+    PlayAutoInstallConfig \
+    PrebuiltGoogleTelemetryTvp \
+    SoundAmplifierPrebuilt \
+    SwitchAccessPrebuilt \
+    VoiceAccessPrebuilt \
+    WallpaperEmojiPrebuilt-v470 \
+    arcore \
+    talkback \
+    AICorePrebuilt \
+    AiWallpapers \
+    AmbientStreaming \
+    AndroidAutoStubPrebuilt \
+    ConfigUpdater \
+    DeviceIntelligenceNetworkPrebuilt-v.U.14.playstore \
+    DreamlinerPrebuilt \
+    DreamlinerUpdater \
+    FilesPrebuilt \
+    GoogleDialer \
+    GoogleOneTimeInitializer \
+    GoogleRestorePrebuilt-v445524 \
+    HealthIntelligenceStubPrebuilt \
+    HelpRtcPrebuilt \
+    PartnerSetupPrebuilt \
+    Phonesky \
+    PrebuiltBugle \
+    PrebuiltGmsCoreSc \
+    PrebuiltGmsCoreSc_AdsDynamite \
+    PrebuiltGmsCoreSc_CronetDynamite \
+    PrebuiltGmsCoreSc_DynamiteLoader \
+    PrebuiltGmsCoreSc_DynamiteModulesA \
+    PrebuiltGmsCoreSc_DynamiteModulesC \
+    PrebuiltGmsCoreSc_GoogleCertificates \
+    PrebuiltGmsCoreSc_MapsDynamite \
+    PrebuiltGmsCoreSc_MeasurementDynamite \
+    AndroidPlatformServices \
+    MlkitBarcodeUIPrebuilt \
+    VisionBarcodePrebuilt \
+    RecorderPrebuilt \
+    SafetyHubPrebuilt \
+    ScribePrebuilt \
+    SettingsIntelligenceGooglePrebuilt \
+    SetupWizardPrebuilt \
+    Velvet \
+    WallpaperEffect \
+    WeatherPixelPrebuilt \
+    WellbeingPrebuilt \
+    AccessibilityMenu \
+    EmergencyInfoGoogleNoUi \
+    Flipendo \
+    GoogleFeedback \
+    GoogleServicesFramework \
+    SetupWizardPixelPrebuilt \
+    StorageManagerGoogle \
+    TurboAdapter \
+    TurboPrebuilt \
+    com.google.android.dialer.support
+
 
 RISING_MAINTAINER := Weaponmasterjax
 PRODUCT_BUILD_PROP_OVERRIDES += \
