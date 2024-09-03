@@ -14,6 +14,9 @@
          calculate the status bar height. -->
     <dimen name="status_bar_height_default">@dimen/status_bar_height</dimen>
 
+    <!-- the padding on the top of the statusbar (usually 0) -->
+    <dimen name="status_bar_padding_top">16px</dimen>
+
     <!-- Default radius of the software rounded corners. -->
     <dimen name="rounded_corner_radius">115px</dimen>
     <!-- The padding of the rounded corners -->
